@@ -6,6 +6,7 @@ a {
   color: black;
 }
 
+
 /* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
 
 /*
@@ -32,6 +33,9 @@ section {
   margin-bottom: 0;
 }
 
+.navbar-brand {
+  display: flex;
+}
 /* Jumbotron */
 
 .jumbotron {
