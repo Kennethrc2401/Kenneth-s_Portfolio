@@ -30,6 +30,10 @@ div, section {
   color: white;
 }
 
+.navbar-default::after {
+  background-color: black;
+  color: white;
+}
 
 h1 {
   padding: 30px;
@@ -47,6 +51,11 @@ section {
 
 .navbar-brand {
   display: flex;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: black;
+    color: #777;
 }
 /* Jumbotron */
 
