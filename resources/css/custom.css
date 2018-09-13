@@ -93,7 +93,7 @@ section {
 }
 
 .jumbotron h1 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif, sans-serif;
 }
 
 .jumbotron p {
