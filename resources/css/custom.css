@@ -119,6 +119,7 @@ section {
 
 .row img {
   margin: 20px 0;
+  border-radius: 13px;
 }
 
 /*Contact Section*/
