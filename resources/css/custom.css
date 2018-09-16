@@ -58,25 +58,29 @@ section {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: black;
-    color: orange;
+    color: #FFA500; /* Orange */
 }
-
 
 /* Nav Bar Link Color - orange */
 .navbar-default .navbar-nav>li>a {
-  color: orange;
+  color: #FFA500; /* Orange */
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: orange;
+  color: #FFA500; /* Orange */
 }
 
 /* Adds borders to the Technical Skills */
-/*
+
 .sect-title {
   border: 3px solid black;
 }
 
+.sect-title h1 {
+
+}
+
+/*
 .text-center {
   border: 2px solid black;
 }
@@ -90,11 +94,12 @@ section {
   margin-top: 10px;
   border-radius: 40px;
 }
-/*
+
 .jumbotron h1 {
-  font-family: 'Cinzel', serif, sans-serif;
+  /* font-family: 'Cinzel', serif, sans-serif; */
+  /* text-shadow: 3px 2px #FFA500; */ /* Orange */ 
 }
-*/
+
 .jumbotron p {
   font-style: italic;
   margin-bottom: 0;
@@ -107,7 +112,7 @@ section {
   }
 
 .btn {
-  background-color: orange;
+  background-color: #FFA500; /* Orange */
   font-style: normal;
   font-weight: bolder;
   letter-spacing: 2px;
