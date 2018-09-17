@@ -1,0 +1,11 @@
+/* About Section */
+.about {
+  /* background-image: linear-gradient(#a8c0ff, #3f2b96);  Opion 1*/
+  /* background-image: linear-gradient(#355C7D, #6C5B7B, #C06C84); Color: white; Option 2 */
+  background-image: linear-gradient(#1c92d2, #f2fcfe);
+  height: 500px;
+}
+
+.about h2 {
+  padding-top: 20px;
+}
