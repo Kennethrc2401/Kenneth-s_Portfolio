@@ -1,5 +1,6 @@
 body, html {
   background-image: linear-gradient(#1c92d2, #f2fcfe);
+  font-size: 18px;
 }
 /* About Section */
 .about {
@@ -11,4 +12,140 @@ body, html {
 
 .about h2 {
   padding-top: 20px;
+}
+
+a {
+  color: black;
+}
+
+header {
+  background-color: black;
+}
+
+/* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
+
+/*
+div, section {
+  border: 1px solid black;
+}
+*/
+
+.container {
+
+}
+
+
+.navbar-default {
+  background-color: black;
+  color: white;
+}
+
+.navbar-default::after {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  padding: 30px;
+}
+
+section {
+    padding: 0 3em 3em 3em;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: black;
+    color: #FFA500; /* Orange */
+}
+
+/* Nav Bar Link Color - orange */
+.navbar-default .navbar-nav>li>a {
+  color: #FFA500; /* Orange */
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #FFA500; /* Orange */
+}
+
+/* Adds borders to the Technical Skills */
+
+.sect-title {
+  border: 3px solid black;
+}
+
+.sect-title h1 {
+
+}
+
+/*
+.text-center {
+  border: 2px solid black;
+}
+*/
+
+/* Jumbotron */
+
+.jumbotron {
+  margin: 0;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  margin-top: 10px;
+  border-radius: 40px;
+}
+
+.jumbotron h1 {
+  /* font-family: 'Cinzel', serif, sans-serif; */
+  /* text-shadow: 3px 2px #FFA500; */ /* Orange */
+}
+
+.jumbotron p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.jumbotron .container {
+  /*
+  background-image: url('/Users/kennethramirezcastro/Desktop/Projects/Kenneth-s_Portfolio/resources/images/pexels-photo-326424.jpeg');
+  */
+  }
+
+.btn {
+  background-color: #FFA500; /* Orange */
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+  background-color: #eee;
+}
+
+.row img {
+  margin: 20px 0;
+  border-radius: 13px;
+}
+
+/*Contact Section*/
+
+.contact {
+  padding: 1em;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: lightgray;
+  padding: .6em;
 }
