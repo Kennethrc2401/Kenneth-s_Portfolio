@@ -2,6 +2,15 @@ body, html {
   background-image: linear-gradient(#1c92d2, #f2fcfe);
   font-size: 18px;
 }
+
+a {
+  color: black;
+}
+
+header {
+  background-color: black;
+}
+
 /* About Section */
 .about {
   /* background-image: linear-gradient(#a8c0ff, #3f2b96);  Opion 1*/
@@ -14,14 +23,17 @@ body, html {
   padding-top: 20px;
   font-family: 'Poor Story', cursive;
   font-size: 50px;
+  /* display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); */
 }
 
-a {
-  color: black;
-}
-
-header {
-  background-color: black;
+.about h2::after {
+  /* content: "Hello";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);   */
 }
 
 /* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
