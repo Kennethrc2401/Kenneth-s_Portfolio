@@ -10,8 +10,10 @@ body, html {
   height: 500px;
 }
 
-.about h2 {
+.about h1 {
   padding-top: 20px;
+  font-family: 'Poor Story', cursive;
+  font-size: 50px;
 }
 
 a {
@@ -46,7 +48,7 @@ div, section {
 }
 
 h1 {
-  padding: 30px;
+
 }
 
 section {
