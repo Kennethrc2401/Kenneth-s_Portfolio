@@ -103,6 +103,7 @@ section {
 .jumbotron p {
   font-style: italic;
   margin-bottom: 0;
+  font-size: 25px;
 }
 
 .jumbotron .container {
