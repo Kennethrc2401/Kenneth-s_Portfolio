@@ -14,6 +14,14 @@ header {
   background-color: black;
 }
 
+h1 {
+  padding: 30px;
+}
+
+section {
+    padding: 0 3em 3em 3em;
+}
+
 /* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
 
 /*
@@ -26,6 +34,7 @@ div, section {
 
 }
 
+/* Navbar */
 
 .navbar-default {
   background-color: black;
@@ -36,16 +45,6 @@ div, section {
   background-color: black;
   color: white;
 }
-
-h1 {
-  padding: 30px;
-}
-
-section {
-    padding: 0 3em 3em 3em;
-}
-
-/* Navbar */
 
 .navbar {
   margin-bottom: 0;
@@ -67,6 +66,10 @@ section {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #FFA500; /* Orange */
+}
+
+.Nav-Bottom-Top {
+  font-size: 30px;
 }
 
 /* Adds borders to the Technical Skills */
