@@ -72,21 +72,6 @@ div, section {
   font-size: 30px;
 }
 
-/* Adds borders to the Technical Skills */
-
-.sect-title {
-  border: 3px solid black;
-}
-
-h1.sect-title  {
-  
-}
-
-/*
-.text-center {
-  border: 2px solid black;
-}
-*/
 
 /* Jumbotron */
 
@@ -120,6 +105,36 @@ h1.sect-title  {
   font-style: normal;
   font-weight: bolder;
   letter-spacing: 2px;
+}
+
+/* Adds borders to the Technical Skills */
+
+.sect-title {
+  border: 3px solid black;
+}
+
+h1.sect-title  {
+
+}
+
+/*
+.text-center {
+  border: 2px solid black;
+}
+*/
+
+/* Intensives Section */
+
+.courses {
+
+}
+
+h4 {
+  font-size: 20px;
+}
+
+#Intensive {
+
 }
 
 /* Portfolio Section */
