@@ -107,7 +107,7 @@ div, section {
   letter-spacing: 2px;
 }
 
-/* Adds borders to the Technical Skills */
+/* Adds borders to the Technical Skills section */
 
 .sect-title {
   border: 3px solid black;
@@ -130,10 +130,16 @@ h1.sect-title  {
 }
 
 h4 {
+  font-size: 20px;
+}
+
+#Intensive h4 {
   font-size: 25px;
 }
 
-#Intensive {
+/* Projects section */
+
+#WebProjects{
 
 }
 
