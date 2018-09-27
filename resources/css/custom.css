@@ -64,13 +64,22 @@ div, section {
   color: #FFA500; /* Orange */
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #FFA500; /* Orange */
-}
-
 .Nav-Bottom-Top {
   font-size: 30px;
 }
+
+/*
+.navbar-default .navbar-nav>li>a::before, .navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a::after,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #FFA500;
+}
+*/
+
+/* .navbar-default .navbar-nav>li>a:hover {
+  background-color: #7f7fff !important;
+  color: white;
+} */
 
 .dropdown-menu>li>a:hover {
   background-color: #e5e5ff;
