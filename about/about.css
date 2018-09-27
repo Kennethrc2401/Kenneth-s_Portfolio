@@ -126,6 +126,10 @@ div, section {
   font-size: 30px;
 }
 
+.dropdown-menu>li>a:hover {
+  background-color: #e5e5ff;
+}
+
 /* Adds borders to the Technical Skills */
 
 .sect-title {
