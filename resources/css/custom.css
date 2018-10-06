@@ -67,7 +67,11 @@ div, section {
 .Nav-Bottom-Top {
   font-size: 30px;
 }
-
+/*
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a.active {
+  background-color: white;
+}
+*/
 /*
 .navbar-default .navbar-nav>li>a::before, .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a::after,
@@ -127,7 +131,7 @@ div, section {
 }
 
 h1.sect-title  {
-
+ /* font-family: "Comic Sans MS"; */
 }
 
 /*

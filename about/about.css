@@ -47,6 +47,10 @@ section {
 	color: rgba(255,0,0,0.5);   */
 }
 
+.about h2 {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
 .about p {
   font-size: 20px;
 }
